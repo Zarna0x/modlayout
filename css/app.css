@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+html, body{
+	height: 100%;
+	width: 100%;
+}
+#hero {
+  background: url('https://raw.githubusercontent.com/DZuz14/website-from-scratch/master/night-sky.jpg');
+  background-size: cover;
+  background-position: center bottom; 
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* X-axis */
+  justify-content: center; /* Y-axis */
+  position: relative;
+  margin-top: -70px;
+  z-index: -9;
+ }
+
+#hero > h1 {
+  color: white; 
+  margin-top: -60px;
+  font-size: 400%;
+}
+
+#hero  button {
+	border-radius: 0;
+    border-color: #dce534;
+    background-color: #dce534;
+    color: black;
+}
+
+
+.custom-navigation {
+   background-color: transparent;
+   height: 70px;
+   width: 100%;
+
+   z-index: 99999999999999999;
+}
+
+.custom-navigation #links {
+	list-style: none;
+	padding: 0;
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+.custom-navigation #links > li {
+	color: white;
+	display: inline-block;
+    padding: 20px 25px 0 0 ;
+}
+
+.custom-navigation #links, #logo {
+   display: inline-block;	
+}
+
+
+.custom-navigation #logo {
+  padding: 25px 0 0 25px;
+	color: #fff;
+	font-size: 24px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+#iconRow {
+   padding: 60px 0;
+   min-height: 70px;
+}
+
+#pics {
+	  height: 450px;
+}
+
+#pics > #cliff, #watterBottle {
+ 
+  float: left;
+  display: inline-block;
+  width: 50%;
+  color: white;
+
+  
+
+}
+
+#pics h1 {
+	font-size: 500%;
+}
+
+#pics > #cliff {
+   background: url('https://github.com/DZuz14/website-from-scratch/blob/master/cliff.jpg?raw=true');
+   background-size: cover;
+   background-position: center bottom; 
+   height: 100%; 
+
+}
+
+#pics > #watterBottle {
+   background: url('https://github.com/DZuz14/website-from-scratch/blob/master/water-bottle.jpg?raw=true');
+   background-size: cover;
+   background-position: center bottom; 
+   height: 100%; 
+
+}
+
+.overlay {
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;
+	width: 100%;
+  
+
+  
+   display: flex;
+  flex-direction: column;
+  align-items: center; /* X-axis */
+  justify-content: center; /* Y-axis */
+
+
+}
